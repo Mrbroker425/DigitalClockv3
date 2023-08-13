@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(ales-krivec-Uszp5Gkg0AI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+  color: #ffffff;
+  letter-spacing: 10px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.Clock-container div{
+   margin: 5px;
+}
+.Clock-container{
+    display: inline-flex;
+    position: relative;
+}
+.Clock-container span{
+        background-color: rgb(113, 113, 113);
+        width: 150px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        text-shadow: 2px 2px 4px;
+        font-weight: bold;
+        box-shadow: 6px 6px 4px;
+     
+}
+.Clock-container .time-frame{
+    font-size: larger;
+    background-color: silver;
+    opacity: .8;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 50px;
+    text-shadow: 2px 2px 4px;
+    color: #000000;
+}
